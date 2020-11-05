@@ -28,7 +28,7 @@ The `cd` command needs to be updated with the path of the files from this repo.
 If you are not using a venv, also change the other lines to invoke python however you choose.
 
 3. Update data.json
-All it needs is emails in the file. Pretty standard (I think). Just put in your list of comma-separated, quote-enclosed email addresses to be used. Emails need to be registered at [the promotion website](winxbox.com) before they can be used here. The script is pretty fragile, so just trust me.
+All it needs is emails in the file. Pretty standard (I think). Just put in your list of comma-separated, quote-enclosed email addresses to be used. Emails need to be registered at [the promotion website](https://winxbox.com) before they can be used here. The script is pretty fragile, so just trust me.
 
 4. Set up your webdriver
 As it is, the project expects an .exe webdriver for Chrome to be in the project directory. Get your own version [here](https://chromedriver.chromium.org/downloads) and make sure that it's named `chromedriver.exe` in the project folder. If it's on your path or you're doing something different, you'll have to change the `executable_path` argument in [test_test.py](/test_test.py) in TestTest.setup_method. 
